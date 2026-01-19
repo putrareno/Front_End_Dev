@@ -6,16 +6,75 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="nama">Nama:</label>
-    <input type="text" id="text" name="text"><br><br>
+    <form action="/signin" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="text" name="text"><br><br>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
 
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password"><br><br>
-    
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br><br>
 
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url"><br><br>
 
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number"><br><br>
+
+        <label for="range">Range</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <label for="color">Colur:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="checkbox">Checkbox:</label><br><br>
+        <input type="checkbox" id="checkbox" name="checkbox" >Basket<br>
+        <input type="checkbox" id="checkbox" name="checkbox" >Sepak bola<br>
+        <input type="checkbox" id="checkbox" name="checkbox" >Voli<br><br>
+
+        <label for="radio">Radio:</label>
+        <input type="radio" id="radio" name="radio">Laki-laki
+        <input type="radio" id="radio" name="radio">Perempuan <br><br>
+
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="submit" value="submit">
+
+        <input type="reset" value="reset"><br><br>
+        
+        <input type="hidden" id="hidden" name="hidden">
+
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel"><br><br>
+
+        <label for="month">Month:</label>
+        <input type="month" id="month" name="month"><br><br>
+
+        <label for="week">Week:</label>
+        <input type="week" id="week" name="week"><br><br>
+
+        <label for="textarea">Textarea:</label>
+        <textarea name="textarea" id="textarea" maxlength="10"></textarea><br><br>
+
+        <label for="dropdown">Dropdown:</label>
+        <select name="dropdown" id="dropdown">
+            <option value="ayam">ayam</option>
+            <option value="bebek">bebek</option>
+            <option value="ikan">ikan</option>
+            <option value="jamur">jamur</option>
+        </select>
+
+    </form>
 </body>
 </html>

@@ -1,0 +1,64 @@
+
+
+/* ini type selector */
+p{
+    color: blue;
+    font-size: 48px;
+    font-style: italic;
+}
+
+/* ini class selector */
+.green{
+    color: green;
+    font-size: 48px;
+    font-style: initial;
+}
+
+/* ini id selector */
+#red{
+    color: red;
+    font-size: 48px;
+    font-style: normal;
+}
+
+/* ini universal selector */
+*{
+    margin: 70px;
+}
+
+/* ini target selector */
+p[target="_blank"]{
+    color: orange;
+    font-size: 30px;
+}
+
+/* desainden selector */
+div p{
+    color: brown;
+}
+
+/* child selector */
+div > p{
+    color: skyblue;
+}
+
+/* adjacent sibling selector */
+div + p{
+    color: pink;
+}
+
+/* general sibling selector */
+div ~ p{
+    color: rgb(140, 145, 7);
+}
+
+/* pseudo-class selector */
+p:hover{
+    color: crimson;
+    font-size: 60px;
+}
+
+/* shadow elemen selector */
+p::first-line{
+    font-size: 50px;
+}

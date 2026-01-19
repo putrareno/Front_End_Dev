@@ -1,0 +1,12 @@
+p{
+    font-size: 40px;
+    color: blue;
+    text-align: start;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 100px;
+    line-height: 50px;
+    /* letter-spacing: 10px; */
+    /* word-spacing: 10px; */
+    /* white-space: pre; */
+}

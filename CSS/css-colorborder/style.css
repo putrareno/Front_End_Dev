@@ -1,0 +1,35 @@
+/* langsung pemanggilan color */
+/* .champion{
+    
+    color: aqua;
+    font-size: 48px;
+    background-color: black;
+    opacity: 50%;
+} */
+
+
+/* rgba max 0-255 */ 
+/* .champion{
+    
+    color: rgba(200, 85, 99, 100%);
+    font-size: 48px;
+    background-color: black;
+    opacity: 50%;
+} */
+
+/* hex */
+.champion{
+    
+    color: #960b0b;
+    font-size: 48px;
+    background-color: black;
+    opacity: 50%;
+    /* contoh penggunaan hsl */
+    color: hsl(100, 90%, 50%);
+}
+
+
+/* buat mewarnai child dari parents */
+.dua{
+    color: currentColor; 
+}
