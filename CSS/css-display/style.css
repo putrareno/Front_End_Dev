@@ -1,0 +1,49 @@
+body{
+    font-size: 40px;
+}
+.block{
+    display: block;
+    background-color: aqua;
+    color: black;
+    border: 3px solid black;    
+}
+.inline{
+    display: inline;
+    background-color: blueviolet;
+    color: black;
+    border: 3px solid black;
+}
+.inline-block{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 300px;
+    color: black;
+    border: 3px solid black;
+}
+.flex{
+    display: flex;
+}
+.pertama{
+    display: inline;
+    background-color: darkblue;
+    width: 1200px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.kedua{
+    display: inline-block;
+    background-color: darkgoldenrod;
+    width: 1200px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.none{
+    display: none;
+    background-color: darkgoldenrod;
+    width: 1200px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+}

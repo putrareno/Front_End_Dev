@@ -1,12 +1,17 @@
 p{
     font-size: 40px;
+    font-style: italic;
     color: blue;
-    text-align: start;
+    text-align: justify;
     text-decoration: underline;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-indent: 100px;
     line-height: 50px;
     /* letter-spacing: 10px; */
     /* word-spacing: 10px; */
     /* white-space: pre; */
+    text-shadow: 10px 5px 10px black; /* (horizontal, vertical, radius, color)  */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    /* direction: rtl; */
 }

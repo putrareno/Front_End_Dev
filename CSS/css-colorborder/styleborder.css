@@ -4,6 +4,8 @@ body{
 
 
 div{
+    background-color: black;
+    color: white;
     border-top: solid black;
     border-bottom: solid blue;
     border-left: solid orange;

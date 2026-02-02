@@ -1,0 +1,54 @@
+html{
+    font-size: 40px;
+}
+/* .position{
+    position: static;
+    font-size: 40px;
+    width: 1000px;
+    height: 1rem;
+    color: blue;
+    background-color: black;
+} */
+
+
+ /* .position{
+    position: relative;
+    font-size: 40px;
+    width: 1000px;
+    height: 1rem;
+    color: blue;
+    background-color: black;
+    left: 1rem;
+    top: 2rem;
+} */
+
+
+/* .position{
+    position: relative;
+    font-size: 40px;
+    background-color: blueviolet;
+    height: 600px;
+    width: 1200px;
+}
+.child{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+} */
+
+
+.position{
+    position: sticky;
+    background-color: brown;
+    
+}
+body{
+    font-size: 1rem;
+    text-align: center;
+    text-indent: 300px;
+    letter-spacing: 20px;
+    line-height: 100px;
+    height: 2000px;
+    width: 3000px;
+    background-color: aqua;    
+}

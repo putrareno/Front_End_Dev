@@ -1,0 +1,10 @@
+{
+    "nama": "Putra Reno Hariyanto",
+    "usia": "20",
+    "kota": "Jepara",
+    "hobi": "Football, Volyball, fishing",
+    "alamat": {
+        "jalan": "Hj.Karmani RT02/01",
+        "kodePos": "0000"
+    }
+}
